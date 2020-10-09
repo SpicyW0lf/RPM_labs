@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Dima/Desktop/FSPO/RPM/MYlabs/DB.h
+string
+-
+list
+-
+iostream
+-
+algorithm
+-
+
+C:/Users/Dima/Desktop/FSPO/RPM/MYlabs/main.cpp
+iostream
+-
+DB.h
+C:/Users/Dima/Desktop/FSPO/RPM/MYlabs/DB.h
+
